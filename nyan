@@ -3,7 +3,7 @@
 import colors as c
 
 while True:
-    print(c.random_color()+'Meow + ', end=' ')
+    print(c.green + ' 1   #    00 1 0 01 1 1 101 ', end=' ')
 
 
 

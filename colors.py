@@ -42,7 +42,6 @@ if __name__ == '__main__':
     print(red + 'Red' + reset)
     print(magenta + 'Magenta' + reset)
     print(cyan + 'Cyan' + reset)
-    print(clear)
     print(magenta + 'Magenta' + reset)
     print(blue + 'Blue' + reset)
     print(orange + 'Orange' + reset)

@@ -42,7 +42,7 @@ answers = [
 
 
 while True:
-    question = input("> " + c.blue)
+    question = input("> " + c.blue + c.yellow)
     print(c.reset)
     print(random.choice(answers))
 
