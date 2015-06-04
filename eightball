@@ -2,7 +2,15 @@
 
 import colors as c
 
-print('What is your question traveler')
+print('''
+
+  
+
+
+
+
+
+
 
 import random
 answers = [
@@ -45,6 +53,8 @@ while True:
     question = input("> " + c.blue + c.yellow)
     print(c.reset)
     print(random.choice(answers))
+
+
 
 
 

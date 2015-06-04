@@ -15,20 +15,18 @@ def prompt(question):
     return answer
 
 
-
-
 def die():
     print(c.red + 'THOU ART CAST INTO THE GOURGE ETERNAL PERIL.')
     exit()
 
 def live():
-    print('Right, off you go then.')
+    print(c.green + 'Right, off you go then.')
 
 name = prompt(c.magenta + 'What is your name')
 quest = prompt(c.cyan + 'What is your quest')
 
 
-if name in ['lancelot', 'galahad']:
+if name in ['lancelot']:
     color = prompt(c.yellow + 'What is your favorite color?')
     if 'no' in color:
         die()
@@ -39,11 +37,14 @@ elif name == 'robin':
     if 'dont' in ['assr', 'nineveh']:
         live()
     else:
-        print('THOU ART CAST INTO THE GORGEOF ETHERNAL PERIL.')
+        print(c.red + 'THOU ART CAST INTO THE GOURGE ETHERNAL PERIL.')
   
-elif name == 'Galahad':
-    pass
-    print('THOU ART CAST INTO THE GOURGE ETERNAL PERIL!')
+elif name == 'galahad':
+    swallow = prompt(c.cyan + 'What is the speed of a swallow?')
+    if swallow == "african or european":
+        print(c.red + 'I have no idea know bridgekeeper dies a horrible death')            
+
+
 elif name == 'Arthur':
     pass
 else:
